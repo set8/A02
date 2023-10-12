@@ -20,20 +20,25 @@ Part 4: Working with **Git** and **GitHub**
 Initialize **Git** in Your Project:
 
 1. In your WebStorm project directory, open a terminal and run:
+
 **bash**
 **git** init
 
-2. Use the following commands to stage and **commit** changes:
+3. Use the following commands to stage and **commit** changes:
+
 **git** add .
 **git** **commit** -m "Initial commit"
 
-3. On **GitHub**, find your **repository**'s URL and use this command to link your local **repository**:
+5. On **GitHub**, find your **repository**'s URL and use this command to link your local **repository**:
+
 git remote add origin <repository_url>
 
-4. Push your local changes to **GitHub**:
+7. Push your local changes to **GitHub**:
+
 **git** **push** -u origin master
 
-5. **Branching** and **Pull Requests** (Optional):
+9. **Branching** and **Pull Requests** (Optional):
+   
 Create **branches** for features, and submit **pull requests** on **GitHub** for collaboration.
 
 **Glossary**
